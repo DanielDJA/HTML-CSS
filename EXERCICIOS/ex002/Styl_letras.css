@@ -1,0 +1,139 @@
+@charset "UFT-8";
+div > div > data {
+    display: none;
+}
+
+div:hover > div > data {
+    display: block;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #6c169b, #9209d6);
+    
+    margin: 0px;
+}
+main{
+    text-align: justify;
+    background-color: white;
+    border-radius: 5px ;
+    width: 1540;
+    padding: 10px;
+    box-shadow: 08px 8px 10px #4d0f6e86;
+    margin: 8px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FAD607;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #A707FA;
+}
+
+h3{
+    color: #7A18AD;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#titulo {
+    position: relative;
+    text-align: center;
+    font-size: 100%;
+    bottom: 100px;
+
+}
+
+.frasses {
+    font-size: 0.85em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1261c2;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    box-shadow: 4px 4px 10px #4d0f6e86;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+.datas {
+    font-family: monospace;
+    position: relative;
+    color: rgba(255, 255, 255, 0.699);
+    bottom: 35px;
+    padding-right: 11%;
+    text-align: right;
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #FAD607;
+}
+
+nav > a:hover {
+    color: #A707FA;
+    border-radius: 5px;
+}
+
+.Lcabeça {
+    background-image: linear-gradient(to bottom, #1261c2,#1777ee);
+    height: 56px;
+
+}
+
+.Ncabeça {
+    word-spacing: 100px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.80em;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px;
+
+}
+
+.fotos {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    box-shadow: 10px 10px 10px #00000086;
+}   
+
+.titulo {
+    color: #FAD607;
+    text-align: center;
+    font-size: 2em;
+    margin: 15px auto 40px auto;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #1261c2;
+
+}
+
+a:hover {
+    color: #FAD607;
+    background-color:#1369d369 ;
+    border-radius: 2px;
+    padding: 1px;
+
+
+
+}
